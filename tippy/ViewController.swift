@@ -62,11 +62,22 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
+        totalLabel.center.x  -= view.bounds.width
+        
+        
+        UIView.animateWithDuration(0.5, animations: {
+            self.totalLabel.center.x += self.view.bounds.width
+        })
+        
+        
     }
+
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         print("view did appear")
+        
     }
     
     override func viewWillDisappear(animated: Bool) {
