@@ -21,13 +21,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] slightly more attractive UI
+- [x] slightly more attractive UI
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/6hAfE7X.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/HUqLIDS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
